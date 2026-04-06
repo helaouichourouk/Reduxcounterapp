@@ -32,7 +32,63 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.counter {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #f5f7fa;
+}
+
+.counter__title {
+  font-size: 28px;
+  color: #333;
+}
+
+.counter__value {
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+}
+
+.counter__buttons {
+  display: flex;
+  gap: 15px;
+}
+
+/* Buttons */
+.btn {
+  padding: 12px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Specific buttons */
+.btn--increment {
+  background: black;
+  color: white;
+}
+
+.btn--increment:hover {
+  background: #333;
+}
+
+.btn--decrement {
+  background: #ddd;
+}
+
+.btn--decrement:hover {
+  background: #bbb;
 }
