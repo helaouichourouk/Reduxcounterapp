@@ -1,4 +1,4 @@
-```markdown
+
 # 📦 Redux Counter App
 A simple counter application built with React + Redux to learn state management concepts.
 
@@ -92,4 +92,3 @@ This project helps understand:
 
 ## 📄 License
 Free to use for learning purposes.
-```
