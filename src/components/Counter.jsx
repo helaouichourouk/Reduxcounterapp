@@ -8,7 +8,7 @@ function Counter() {
 
     return (
         <div className="counter">
-            <h1 className="counter__title">Redux Counter 🚀</h1>
+            <h1 className="counter__title">Redux Counter </h1>
 
             <div className="counter__value">{count}</div>
 
